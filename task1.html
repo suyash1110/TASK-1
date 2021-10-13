@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT','Arial','Bodoni MT','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Georgia, Times, 'Times New Roman';
+}
+
+.header {
+  overflow: hidden;
+  background-color: #54973f;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: rgb(201, 211, 66);
+  color: rgb(236, 240, 45);
+}
+
+.header a.active {
+  background-color: rgb(191, 221, 80);
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: Arial, Bodoni 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(70, 121, 55, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #54973f;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(93, 206, 214);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(85, 161, 136);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(172, 214, 152);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#2c750a;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:rgb(100, 163, 109);
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+Resources
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo"><img src="logo.png" style="height: 140px; width: 140px;"></a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<img src="suy.png" alt="Paris" style="height: 10%; width:100%;">
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>Where the mind is without fear and the head is held high .</p>
+  <p>Where knowledge is free Where the world has not been broken up into fragments by narrow domestic walls; Where words come out from the depths of truth; Where tireless striving stretches its arms towards perfection.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p alt="Amol.Sirsath" </p>
+      <div class="container">
+        <h2>Mr. Amol Sirsath </h2>
+        <p class="title">Director</p>
+        <p>B.A. ,D.ed in Social Studies </p>
+        <p>amolsirsath258@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p alt="Sunil Patil" </p>
+      <div class="container">
+        <h2>Mr. Sunil Patil</h2>
+        <p class="title">General Secreatory</p>
+        <p>B.A. in English Literature </p>
+        <p>patil7788@yahoo.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p alt="Anjali Pawar" </p>
+      <div class="container">
+        <h2>Mrs. Anjali Pawar </h2>
+        <p class="title">Science department</p>
+        <p>M.Sc Science </p>
+        <p>pawaranjali659@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="column">
+    <div class="card">
+      <p alt="Ram Kadam" </p>
+      <div class="container">
+        <h2>Mr.Ram Kadam</h2>
+        <p class="title">Marathi Literature</p>
+        <p>B.A. in Marathi Literature</p>
+        <p>ramkadam989.@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="column">
+    <div class="card">
+      <p alt="Pranita Patharkar" </p>
+      <div class="container">
+        <h2> Mrs.Pranita Patharkar </h2>
+        <p class="title">co-ordinator</p>
+        <p>M.Sc Political Science</p>
+        <p>pranita8749@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="column">
+    <div class="card">
+      <p alt="Girish Jamkar" </p>
+      <div class="container">
+        <h2>Mr. Girish Jamkar</h2>
+        <p class="title">Computer Department </p>
+        <p>M.Sc Computer Science </p>
+        <p>jamkargirish@yahoomail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div>
+<section>
+  <p>
+ <strong><mark style="color: purple;"> Mission</mark></strong>
+ We aim to provide a safe learning environment with a welcoming atmosphere which creates a sense of belonging amongst the families. We maintain an inclusive environment which acknowledges and respects children from diverse family and cultural backgrounds.
+</p></div>
+
+<br><br>
+<div>
+<p>
+<strong><mark style="color: rgb(219, 23, 66);">Vision</mark></strong>
+Our mission is to provide a safe haven where everyone is valued and respected. All staff members, in partnership with parents and families are fully committed to students’ college and career readiness. Students are empowered to meet current and future challenges to develop social awareness, civic responsibility, and personal growth.
+</p>
+</section></div>
+
+</body>
+
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Councling Services</a></li>
+                            <li><a href="#">Orientation And Mobillity Services</a></li>
+                            <li><a href="#">Cultural Education</a></li>
+                            <li><a href="#">Health Care and Physical Activity</a></li>
+                            <li><a href="#">Social Work</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">School</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Our Achievements</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Sahyadri English School,Loha</h3>
+                        <p>बालका: धनं राष्ट्रस्य</p>
+                    </div>
+                    <div class="col item social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-snapchat"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Sahyadri English School,Loha © 2021</p>
+            </div>
+        </footer>
+    </div>
+
+
+</html>
